@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Salam | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <!-- Luxury Background Glows -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">Abdul Salam<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="home section" id="home">
+    <div class="home-container">
+      <div class="home-content">
+        <p class="intro-line">Portfolio of</p>
+        <h1>Hello, I'm <span>Abdul Salam</span></h1>
+        <h3 class="animated-role">Frontend Developer</h3>
+        <p class="hero-text">
+          I build elegant, responsive, and visually refined websites with clean code,
+          smooth motion, and a modern premium feel.
+        </p>
+
+        <div class="btn-box">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="home-image">
+        <div class="image-frame">
+          <img src="images/profilepic.jpeg" alt="Abdul Salam" class="profile-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="section-heading">
+      <span class="section-tag">About</span>
+      <h2>Crafting Modern Web Experiences</h2>
+    </div>
+
+    <div class="glass-card about-card reveal-up">
+      <p>
+        Hello! I'm <strong>Abdul Salam</strong>, a passionate web developer focused on building
+        clean, responsive, and user-friendly websites that feel modern and polished.
+      </p>
+      <p>
+        I enjoy creating interfaces with strong visual design, smooth interactions, and elegant
+        layouts using <strong>HTML, CSS, JavaScript</strong>, while continuously growing toward
+        <strong>React / Next.js</strong> and full-stack development.
+      </p>
+      <p>
+        My goal is to combine clean code with premium UI so every project feels simple,
+        professional, and impactful.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="section-heading">
+      <span class="section-tag">Skills</span>
+      <h2>Tools I Use to Build</h2>
+    </div>
+
+    <div class="skill-grid">
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">HTML & CSS</span>
+        <div class="skill-bar"><span style="width: 90%"></span></div>
+      </div>
+
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar"><span style="width: 45%"></span></div>
+      </div>
+
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">React / Next.js</span>
+        <div class="skill-bar"><span style="width: 20%"></span></div>
+      </div>
+
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">GSAP Animations</span>
+        <div class="skill-bar"><span style="width: 30%"></span></div>
+      </div>
+
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">Git & GitHub</span>
+        <div class="skill-bar"><span style="width: 40%"></span></div>
+      </div>
+
+      <div class="skill-card glass-card reveal-up">
+        <span class="skill-name">Responsive Design</span>
+        <div class="skill-bar"><span style="width: 75%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="section-heading">
+      <span class="section-tag">Projects</span>
+      <h2>Selected Work</h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card glass-card reveal-up">
+        <h3>Coffee Shop Website</h3>
+        <p>
+          A modern showcase website built to present a coffee brand with refined visuals,
+          elegant layout, and smooth browsing experience.
+        </p>
+        <a href="https://github.com/abdulsalam17004-commits/coffee-shop" class="project-link" target="_blank">View Project ↗</a>
+      </div>
+
+      <div class="project-card glass-card reveal-up">
+        <h3>Personal Portfolio</h3>
+        <p>
+          A premium personal portfolio focused on visual clarity, smooth transitions,
+          and professional presentation for recruiters and clients.
+        </p>
+        <a href="#" class="project-link">View Project ↗</a>
+      </div>
+
+      <div class="project-card glass-card reveal-up">
+        <h3>Future Full-Stack Projects</h3>
+        <p>
+          Upcoming projects featuring advanced UI, APIs, and real-world web applications
+          as I continue growing as a developer.
+        </p>
+        <a href="#" class="project-link">Coming Soon ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section-heading">
+      <span class="section-tag">Contact</span>
+      <h2>Let’s Build Something Great</h2>
+    </div>
+
+    <div class="contact-card glass-card reveal-up">
+      <p>
+        I’m open to internships, freelance opportunities, and collaborations.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:abdulsalam17004@gmail.com">📧 abdulsalam17004@gmail.com</a>
+        <a href="https://wa.me/916302300895" target="_blank">📱 Chat on WhatsApp</a>
+        <a href="https://www.linkedin.com/in/abdul-salam-mohammed-712052372/" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/abdulsalam17004-commits" target="_blank">💻 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Abdul Salam. Crafted with elegance & clean code.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
